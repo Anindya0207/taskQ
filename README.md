@@ -4,8 +4,6 @@ TaskQ is a Javascript library that is capable of sorting tasks based on their to
 It is designed to run on both Node.js and ECMAScript 2015 (ES6) compliant browsers.
 This library is capable to manage both sync and async tasks for both web and native platform with offline capabilities.
 
-To learn more please visit: https://confluence.fkinternal.com/display/FSGUI/%5BDRAFT%5DMultiple+offline+queue
-
 ## How to Test run?
 
 ```
