@@ -1,0 +1,1 @@
+{"version":3,"file":"createStore.js","sourceRoot":"","sources":["../../src/redux/createStore.ts"],"names":[],"mappings":";;;;;AAAA,+BAAqD;AACrD,wDAAkC;AAElC,SAAwB,gBAAgB,CAAC,EAAE;IACzC,IAAM,WAAW,GAAG,IAAA,uBAAe,EAAC,kBAAQ,CAAC,CAAC;IAC9C,IAAM,KAAK,GAAG,IAAA,mBAAW,EAAC,WAAW,EAAE,EAAE,CAAC,CAAC;IAC3C,OAAO,KAAK,CAAC;AACf,CAAC;AAJD,mCAIC"}

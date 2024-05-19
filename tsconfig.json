@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true, // allow sourcemap support
+    "module": "commonjs", // specifiy module code generation
+    "jsx": "react", // use typescript to transpile jsx to js
+    "target": "es5", // specify ECMAScript target version
+    "allowJs": true, // allow a partial TypeScript and JavaScript codebase
+    "allowSyntheticDefaultImports": true,
+    "outDir": "public",
+    "baseUrl": ".",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "moduleResolution": "node",
+    "typeRoots": ["./typings", "./node_modules/@types"],
+    "esModuleInterop": true,
+    "lib": ["es2015", "es2016", "dom", "es2018.promise", "es2017.object"],
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "declaration": true
+  },
+  "exclude": ["node_modules", "public"],
+  "include": ["src"]
+}

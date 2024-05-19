@@ -1,0 +1,1 @@
+{"version":3,"file":"detectPlatform.js","sourceRoot":"","sources":["../../src/utils/detectPlatform.ts"],"names":[],"mappings":";;AAAA,IAAM,cAAc,GAAG;IACrB,IAAI,CAAC,CAAA,SAAS,aAAT,SAAS,uBAAT,SAAS,CAAE,SAAS,CAAA;QAAE,OAAO,QAAQ,CAAC;IAC3C,IACE,gEAAgE,CAAC,IAAI,CACnE,SAAS,CAAC,SAAS,CACpB,EACD;QACA,OAAO,gBAAgB,CAAC;KACzB;IACD,OAAO,aAAa,CAAC;AACvB,CAAC,CAAC;AAEF,kBAAe,cAAc,CAAC"}

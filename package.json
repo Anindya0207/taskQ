@@ -1,0 +1,42 @@
+{
+  "name": "fk-taskq",
+  "version": "1.0.48",
+  "description": "A cross platform offline queue Library with offline support and concurrent calls",
+  "main": "public/index.js",
+  "types": "public/index.d.ts",
+  "files": [
+    "/public"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write .",
+    "ts:compile": "rm -rf ./public && tsc -p ./tsconfig.json --skipLibCheck",
+    "start:mock": "node ./public",
+    "publish:lib": "yarn ts:compile && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.fkinternal.com:anindya2791/TaskQ.git"
+  },
+  "keywords": [
+    "offline-queue",
+    "queue",
+    "offline"
+  ],
+  "author": {
+    "name": "Anindya Mukherjee",
+    "email": "anindya.sm@flipkart.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-community/netinfo": "^8.1.0",
+    "prettier": "^2.6.0",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.43",
+    "ts-node": "^10.8.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  }
+}
